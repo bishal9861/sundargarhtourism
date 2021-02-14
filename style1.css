@@ -1,0 +1,396 @@
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(208, 255, 0, 0.925);
+    border: 1px solid rgba(208, 255, 0, 0.925) ;
+    border-radius: 3%;
+}
+.header-brand{
+    
+    font-family: 'Arvo', serif;
+    margin-left: 20px;
+    border: 1px solid transparent;
+    display: inline-block;
+    font-size: 38px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.788);
+    
+}
+.fa-location-arrow{
+    margin-right: 10px;
+    font-size: 40px;
+    color: rgba(255, 0, 34, 0.884);
+}
+.step2{
+    height: 400px;
+    width: 100%;
+
+}
+.step2item{
+    height: 400px;
+    width: 49%;
+    float: left;
+    
+   
+}
+
+.ts-brand{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgba(14, 13, 13, 0.829);
+
+    margin-top: 6px;
+
+}
+.ts-list{
+    list-style: none;
+}
+.ts-list li span{
+    
+    
+}
+.ts-list li{
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(233, 24, 24, 0.952);
+}
+.lastitem{
+    margin-left: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.096);
+    box-shadow: 0.1px 0.1px 3px rgba(172, 255, 47, 0.308);
+   
+}
+.firstitem{
+    margin-left: 3.9px;
+    border: 2px solid rgba(128, 128, 128, 0.178);
+}
+.firstbrand{
+    margin-top: 50px;
+}
+.fa-hand-point-right{
+    font-size: 30px;
+    color: rgba(255, 0, 34, 0.884);
+    margin-right: 6px;
+}
+.footer{
+    width: 100%;
+    height: 170px;
+    background-color: rgba(208, 255, 0, 0.925);
+}
+.footer p{
+    text-align: center;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.822)
+   
+}
+.footer h2{
+    text-align: center;
+}
+h6{
+    text-align: center;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.822);
+    letter-spacing: 0.1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon{
+    color:rgba(233, 162, 31,0.766);
+}
+h3 a{
+    margin-left: 8px;
+    color: rgba(0, 0, 0, 0.822);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    
+}
+h3{
+    text-align: center;
+}
+.contact{
+    height: 500px;
+    width: 99%;
+    border: 10px solid rgba(232, 233, 230, 0.521);
+}
+input{
+    margin-left: 600px;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid rgba(27, 27, 27,0.36);
+    height: 30px;
+    margin-top: 17px;
+}
+::placeholder{
+    color: rgba(27, 27, 27,0.36);
+    font-weight: 600;
+    
+}
+.exp1{
+    color: black;
+}
+.contact-brand{
+    color:rgb(157, 255, 0) ;
+    text-align: center;
+    font-size: 39px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 60px;
+}
+#sye{
+    height: 50px;
+    margin-top: 10px;
+}
+.submitbtn{
+    margin-left: 690px;
+    margin-top: 48px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 4%;
+    background-color: rgb(157, 255, 0);
+    color:rgba(0, 0, 0, 0.842) ;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    
+}
+.show{
+    height: 840px;
+    width: 100%;
+   
+}
+.item{
+    height: 400px;
+    width: 32%;
+    background-color:white;
+    border:5px solid rgba(189, 67, 11, 0.13);
+    float: left;
+    margin-left: 8px;
+    margin-top: 6px;
+    border-radius: 3%;
+}
+.imgsng{
+    border-radius: 2%;
+    border:0.01px solid transparent;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+
+}
+.place-name{
+    
+    margin-top: 7px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(20, 20, 20, 0.904);
+}
+.place-p{
+    font-size: 15px;
+    margin-left: 4px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.815);
+}
+h5{
+    text-align: center;
+}
+.month-tra{
+    margin-left: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rat{
+    float: right;
+    margin-right: 5px;
+    font-size: 16px;
+}
+.fa-star{
+    font-size: 15px;
+    color: rgba(255, 0, 0, 0.801);
+    margin-right: 2px;
+}
+h4{
+    text-align: right;
+}
+.fa-heart{
+    margin-right: 10px;
+    font-size: 18px;
+    border: 1px solid greenyellow;
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: greenyellow;
+}
+.fa-heart{
+    color:rgba(255, 0, 0, 0.801) ;
+    border: 1px solid rgba(255, 0, 0, 0.801);
+
+}
+.distance{
+    height: 500px;
+    width: 100%;
+
+}
+
+.map{
+    width: 100%;
+    height: 496px;
+
+}
+.map-item{
+    float: left;
+    width:48%;
+    height: 500px;
+    
+}
+.know{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.green-ani{
+    color:greenyellow ;
+}
+.dist-kno{
+    margin-left: 235px;
+    margin-top: 14px;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(12, 12, 12, 0.801);
+}
+.fa-map-marker-alt{
+    margin-right: 8px;
+    color: rgba(224, 6, 6, 0.89);
+}
+table,td,tr{
+    border: 1px solid transparent;
+    margin-top: 0px;
+    margin-left: 217px;
+}
+.bold-p{
+    font-size: 27px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+}
+.bold-p-1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.815);
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.fa-bus-alt{
+    border: 1px solid rgba(233, 27, 68, 0.938);
+    font-size: 60px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: rgba(233, 27, 68, 0.938);
+    color: rgba(255, 255, 255, 0.774);
+}
+.fa-subway{
+    border: 1px solid rgba(21, 160, 21, 0.877);
+    font-size: 60px;
+    margin-left: 20px;
+    padding: 11px 13.5px;
+    border-radius: 50%;
+    background-color: rgba(21, 160, 21, 0.877);
+    color: rgba(255, 255, 255, 0.726);
+
+}
+.fa-plane{
+    border: 1px solid rgba(20, 20, 20, 0.918);
+    font-size: 57px;
+    margin-left: 20px;
+    padding: 11px 10px;
+    border-radius: 50%;
+    background-color: rgba(20, 20, 20, 0.918);
+    color: rgba(255, 255, 255, 0.726);
+    margin-bottom: 10px;
+
+}
+.tour-brand-map{
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    
+}
+.header-listitem{
+    float: left;
+    text-decoration: none;
+}
+.header-listmain{
+    float: right;
+    list-style: none;
+}
+.item11{
+    border: 1px solid transparent;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+
+}
+.item12{
+    border: 1px solid transparent;
+    margin-top: 20px;
+    margin-right: 120px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+
+}
+.item12 a,.item11 a{
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.815);
+    border: 0.5px solid rgba(128, 128, 128, 0.664);
+    padding: 6px 9px;
+    border-radius: 6%;
+}
+.fa-address-book,.fa-sign-in-alt{
+    margin-right: 4px;
+    
+}
+.body{
+    height: 390px;
+    width: 100%;
+}
+.fa-envelope,.fa-map-marker-alt,.fa-phone-square-alt{
+    margin-right: 3px;
+    color:rgba(224, 6, 6, 0.89) ;
+}
+#item1,#item2,#item3,#item4,#item5,#item6{
+    margin-left: 5px;
+    margin-right: 12px;
+    font-size: 14px;
+    padding: 6px 10px;
+    background-color: greenyellow;
+    border-radius: 5%;
+    border: 0.4px solid greenyellow;
+    color: rgba(0, 0, 0, 0.733);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    
+
+}
